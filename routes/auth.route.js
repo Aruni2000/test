@@ -5,5 +5,6 @@ const router = express.Router();
 
 router.post("/Seller-signup", SellerSignUp);
 router.post("/Seller-login", SellerLogin);
+router.post("/google");
 
 export default router;
